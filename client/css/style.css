@@ -1,0 +1,112 @@
+
+body{
+  background-image:url('https://static.pexels.com/photos/531765/pexels-photo-531765.jpeg');
+  background-size: cover;
+}
+/*nav bar*/
+#navbar{
+  background-color:#CFAE09;
+  color:#FFFFFF !important;
+}
+a{
+  color:#FFFFFF !important;
+}
+/*main div*/
+.jumbotron{
+  background-color: transparent !important;
+    opacity: 0.8;
+  margin-top:5em;
+  max-width:90%;
+}
+.col-md-10{
+  margin-right:0;
+  padding-right:0;
+  padding-left:2em;
+}
+.col-md-2{
+  margin-left:0;
+  padding-left:0;
+}
+.col-xs-8{
+  padding-left:2em;
+  
+}
+h4, span{
+  color:#FFFFFF;
+  font-weight:bold;
+}
+#b_chat{
+  background-color:#FAFAFA;
+  overflow: scroll;
+   height:25em;
+}
+#messages{
+  list-style: none;
+  text-indent:0px;
+ /* overflow-x: hidden;*/
+  padding-left:3px;
+ 
+}
+#b_online{
+  background-color:#FAFAFA;
+  height:25em;
+  overflow: scroll;
+}
+
+#online{
+  color:green;
+  text-indent:0px;
+
+}
+#online p{
+  color:black;
+  font-size:1em;
+}
+
+#status{
+  background-color:#FAFAFA;
+}
+
+
+/*chat message form */
+#m{
+  width:100%;
+  margin-right:0;
+}
+#sm{
+  width:100%;
+  margin-left:0;
+  margin-right:0;
+}
+
+/*footer*/
+footer{
+  background-color:#D72547;
+  color:#FFFFFF;
+}
+
+
+ /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+      .jumbotron{max-width:100%;}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+    .jumbotron{max-width:100%;}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+      .jumbotron{max-width:100%;}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+  .jumbotron{max-width:90%;}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+  .jumbotron{max-width:90%;}
+    }
