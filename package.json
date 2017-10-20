@@ -1,16 +1,18 @@
 {
-  "name": "simple-chat",
+  "name": "simple-stock",
   "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "description": "an app that chart the stock market",
   "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hasnaas/SimpleChat.git"
   },
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "author": "Hasna",
   "dependencies": {
     "express": "^4.16.1",
-    "socket.io": "^2.0.3"
+    "moment": "^2.18.1",
+    "socket.io": "^2.0.3",
+    "yahoo-finance": "^0.3.3"
   },
   "scripts": {
     "start": "node server.js"
@@ -19,7 +21,7 @@
   "keywords": [
     "socket.io",
     "express",
-    "jquery"
+    "d3"
   ],
   "license": "ISC",
   "bugs": {

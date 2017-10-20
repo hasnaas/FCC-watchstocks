@@ -1,6 +1,11 @@
 
+## About
+An app that charts the stock market, the chosen stocks are broadcasted live to all connected clients using web sockets. 
 
-This chat example showcases how to use `socket.io` with a static `express` server.
+* NodeJS/Express
+* socket.io
+* Highcharts 
+* Quandl.com for market data
 
 ## Running the server
 
